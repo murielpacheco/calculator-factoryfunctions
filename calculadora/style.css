@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(63, 63, 63);
+}
+
+input {
+  background-color: black;
+  color: white;
+}
+
+.calculadora {
+  margin: 24px auto;
+  width: 450px;
+  background-color: black;
+  padding: 22px;
+  border-radius: 8px;
+}
+
+.display {
+  font-size: 1.8rem;
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  width: 77px;
+  height: 77px;
+  font-size: 1em;
+  border: none;
+  background-color: #212121;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.btn-clear,
+.btn-equal,
+.btn-del {
+  background-color: #a8a8a8;
+}
+
+.btn-op {
+  background-color: orange;
+}
+
+.btn:active {
+  color: black;
+  background-color: orange;
+}
+
+.btn-op:active {
+  color: black;
+  background-color: white;
+}
